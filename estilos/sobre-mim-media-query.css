@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+@media screen and (min-width:992px) {
+    
+    #links {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #conteudo {
+        margin: auto;
+        width:80% ;
+        text-align: center;
+        border-radius: 10px;
+        padding: 4px;
+        background-color: rgba(0, 0, 0, 0.199);
+    }
+
+    #conteudo p {
+        background-color: transparent;
+        color: white;
+        font-size: 22px;
+        text-align: justify;
+        text-shadow: 2px solid rgba(0, 0, 0, 0.397);
+        
+    }
+
+    #importantes {
+        margin-left: 30px;
+    }
+
+    #social {
+        transform: scale(1.1);
+        margin-right: 40px;
+    }
+}

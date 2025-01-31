@@ -1,0 +1,174 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    /*
+    cores:
+
+        #d5d9d3: Cinza esverdeado claro (ou Verde musgo claro).
+        #97afb5: Azul acinzentado (ou Azul tempestade suave).
+        #576972: Azul petróleo escuro (ou Cinza-azulado profundo).
+        #75756a: Cinza terroso (ou Cinza musgo).
+        #746c74: Cinza púrpura (ou Roxo acinzentado).
+    */
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    font-family: 'montserrat', sans-serif;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+}
+header {
+    background-color: #75756a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#imagem {
+    background-color: #d5d9d3;
+    padding: 10px;
+}
+
+#foto {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-image: url(../imagens/lucas.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    margin: auto;
+}
+
+#historia {
+    margin: auto;
+    padding: 13px;
+    background-image: linear-gradient(to bottom, #746c74 15%, #69919b );
+}
+
+#historia p {
+    line-height: 1.5;
+    text-indent: 22px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color:#d5d9d3;
+    border-radius: 12px;
+}
+
+aside {
+    height: 100vh;
+    background-color: #97afb5;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote {
+    text-align: center;
+    font-size: 1.4em;
+    color: #3c4c53;
+    text-shadow: 2px solid rgba(0, 0, 0, 0.336);
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+footer img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+#links {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#importantes {
+    margin-top: 10px;
+    background-color: #333333;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 8px;
+    margin: 15px 10px 18px 10px;
+}
+
+#importantes h2 {
+    font-size: 17px;
+    background-color: #361736;
+    text-align: center;
+    padding: 5px;
+    margin: -8px -8px 8px -8px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#importantes p {
+    margin-bottom: 10px;
+}
+
+#importantes a {
+    color: #97afb5;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#importantes a:hover {
+    text-decoration: underline;
+    /*transform: scale(1.05);*/
+}
+
+#importantes a:active {
+    color: #576972;
+}
+
+#social {
+    background-color: #333333;
+    display: inline-block;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#social h2 {
+    font-size: 18px;
+    text-align: center;
+    background-color: #361736;
+    margin: -15px -15px 10px -15px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#social ul {
+    display: flex;
+}
+
+#social li {
+    padding: 3px;
+    margin: auto;
+}
+
+p {
+    margin-bottom: 6px;
+}
+
+#aviso {
+    font-size: 11px;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #252424;
+}

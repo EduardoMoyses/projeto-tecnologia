@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entre em contato</title>
+    <link rel="stylesheet" href="estilos/contato.css">
+    <link rel="stylesheet" href="estilos/contato-media-query.css">
+</head>
+<body>
+    <header>
+        <h1>Entre em Contato</h1>
+    </header>
+            <div id="conteudo">
+                <section>
+                    <p class="paragrafo">Entre em contato facilmente! Preencha os campos abaixo para que possamos ajudar você. O formulário foi pensado para ser rápido e funcional em qualquer dispositivo. Estamos prontos para ouvir você!</p>
+                    <form action="#" method="post" onsubmit="enviar()">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="inome" id="nome" required>
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="iemail" id="email" required>
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" name="itel" id="tel" required maxlength="15" pattern="\(\d{2}\) \d{5}-\d{4}" placeholder="(xx)xxxxx-xxxx">
+                        <input type="submit" value="Enviar">
+                    </form>
+                    <div id="res"></div>
+                </section>
+            </div>
+
+            <script src="contato.js"></script>
+</body>
+</html>

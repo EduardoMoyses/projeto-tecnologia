@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px ) and (max-width: 992px) {
+    #destaques {
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 80px;
+    }
+    
+}
+
+@media screen and (min-width:992px) {
+
+    #destaques {
+        display: flex;
+        flex-flow: row nowrap;
+        padding: 100px;
+    }
+
+    .cards:hover {
+        transform:scale(1.05);
+        box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+        background-color: #5f939e;
+    }
+
+    #futuro div:hover {
+        transform: scale(1.1);
+    }
+}

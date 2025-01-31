@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) and (max-width:992px) {
+
+    body {
+        background-image: linear-gradient(to top, #97afb5, #576972 62%);
+    }
+    section {
+        width: 70%;
+    }
+
+    input[type = "submit"]:hover {
+        background-color: #576972;
+        color: #d5d9d3;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    body {
+        background-image: linear-gradient(to top, #97afb5, #576972 46%);
+    }
+    section {
+        width: 87%;
+    }
+
+    input[type = "submit"]:hover {
+        background-color: #576972;
+        color: #d5d9d3;
+    }
+}
